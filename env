@@ -1,0 +1,8 @@
+GOOGLE_MAIL_SENDER=felistasfenyere2224@gmail.com
+PORT=5000
+DB_HOST=localhost
+DB_PORT=27017
+DB_DATABASE=files_manager
+FOLDER_PATH=/tmp/files_manager   # For Linux, Mac OS X
+# FOLDER_PATH=%TEMP%/files_manager   # For Windows
+
