@@ -1,7 +1,7 @@
 import express from 'express';
-import startServer from './libs/boot.js';
-import injectRoutes from './routes.js';
-import injectMiddlewares from './libs/middlewares.js';
+import startServer from './libs/boot';
+import injectRoutes from './routes';
+import injectMiddlewares from './libs/middlewares';
 
 const server = express();
 
@@ -10,4 +10,3 @@ injectRoutes(server);
 startServer(server);
 
 export default server;
-
